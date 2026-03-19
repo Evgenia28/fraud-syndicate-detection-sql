@@ -1,4 +1,3 @@
-sql
 
 -- Mitigation Rule/Query (based on deposit pattern)
 -- Goal: to detect a deposit pattern where users increased deposits in fixed increments (ladder deposit) with controlled timing.
