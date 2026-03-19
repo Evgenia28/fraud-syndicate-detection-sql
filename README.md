@@ -26,7 +26,7 @@ Four synthetic tables modelling a regulated digital platform:
 | File                                   | Description                                                                                              |
 |----------------------------------------|----------------------------------------------------------------------------------------------------------|
 | `04_ladder_deposit_rule.sql`           | Detects systematic deposit escalation in fixed increments with controlled timing                         |
-| `05_withdrawal_rule.sql`               | Detects early fund extraction via micro deposit to a new payment instrument on recently created accounts |
+| `05_withdrawal_rule.sql`               | Detects early fund extraction to a new payment instrument on recently created accounts |
 
 ## Fraud Behaviours Covered
 - Multi-accounting and Sybil attack patterns
