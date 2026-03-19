@@ -1,4 +1,3 @@
-sql
   
 -- Follow-up Drill-down Query
 -- Fraud typology: card stuffing/limit testing, CNP, card draining
