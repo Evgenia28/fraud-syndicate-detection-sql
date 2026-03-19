@@ -1,4 +1,3 @@
-sql
 
 -- Behaviour Audit Query (deposit-based, per user)
 -- Fraud typology: card stuffing/testing, CNP, card hopping, ladder deposits, deposit velocity
