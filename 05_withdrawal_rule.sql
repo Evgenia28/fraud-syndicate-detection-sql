@@ -1,4 +1,3 @@
-sql
 
 -- Mitigation Rule/Query (based on withdrawal pattern)
 -- Goal: to detect early fast funds liquidation on new accounts with high deposit velocity. It's designed as a secondary control to detect users who evade initial deposit-based screening. 
