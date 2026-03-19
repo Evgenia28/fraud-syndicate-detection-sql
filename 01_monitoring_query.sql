@@ -1,4 +1,3 @@
-sql
   
 -- Monitoring Query
 -- Fraud typology: multi-accounting
