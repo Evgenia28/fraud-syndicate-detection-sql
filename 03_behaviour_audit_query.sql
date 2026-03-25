@@ -14,7 +14,7 @@ SELECT username,
        amount,
        SUM(CASE WHEN deposit_status = 'approved' THEN amount ELSE 0 END) 
        OVER(PARTITION BY username ORDER BY deposit_datetime, transaction_id) AS rolling_amount
-       deposit_status, -- 'approved'/'failed'       
+       deposit_status -- 'approved'/'failed'       
 FROM deposits
 WHERE username IN ('username_x', 'username_y',...'username_z')
 
