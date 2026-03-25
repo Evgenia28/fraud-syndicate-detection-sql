@@ -8,7 +8,7 @@ SELECT
        ip,
        COUNT(DISTINCT username) AS username_count
 FROM logins
-WHERE created_at >= TIMESTAMP_SUB(CURRENT_TIMESTAMP(), INTERVAL 14 DAY)
+WHERE account_created >= TIMESTAMP_SUB(CURRENT_TIMESTAMP(), INTERVAL 14 DAY)
 GROUP BY ip
 HAVING DATETIME_DIFF(MAX(account_created), MIN(account_created), DAYS) <= 2
 AND COUNT(DISTINCT username) > = 3
